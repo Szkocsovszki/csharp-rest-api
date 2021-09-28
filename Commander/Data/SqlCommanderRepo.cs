@@ -36,5 +36,7 @@ namespace Commander.Data
         {
             return (_context.SaveChanges() >= 0);
         }
+
+        public void UpdateCommand(Command command) { }
     }
 }
